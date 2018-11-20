@@ -1,10 +1,11 @@
-const records = require("./data.json");
 
 function createNext(record) {
   const { id, date, vendor } = record;
+  // this should copy primitives by value to a new object
   const next = { id, date, vendor };
   return changeOrdersToArray(record, moveCustomerId(record, next));
 }
+
 exports.createNext = createNext;
 
 function moveCustomerId(record, next) {
