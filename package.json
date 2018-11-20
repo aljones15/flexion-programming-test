@@ -1,0 +1,21 @@
+{
+  "name": "flexion-node-immutable-transform",
+  "version": "1.0.0",
+  "engines": {
+        "node": ">=8.6.0"
+  },
+  "description": "simple functional programming tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "liminal18",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.9.0",
+    "eslint-plugin-mocha": "^5.2.0",
+    "eslint-plugin-node": "^8.0.0",
+    "mocha": "^5.2.0"
+  }
+}
