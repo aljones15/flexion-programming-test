@@ -8,4 +8,8 @@ describe('should transform the data', function() {
       const next = transformer.default(data);
       expect(next).to.deep.equal(transformed);
   });
+  it('should not match the data', function() {
+      expect(data).to.not.deep.equal(transformed);
+  });
+
 });
