@@ -24,7 +24,7 @@ function changeOrdersToArray(record, next) {
   return next;
 }
 
-function processRecords() {
+function processRecords(records) {
   const nextRecords = records.map(createNext);
   return nextRecords;
 }
