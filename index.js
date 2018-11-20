@@ -5,6 +5,7 @@ function createNext(record) {
   const next = { id, date, vendor };
   return changeOrdersToArray(record, moveCustomerId(record, next));
 }
+exports.createNext = createNext;
 
 function moveCustomerId(record, next) {
     next.customerId = record.customer.id;
