@@ -7,7 +7,8 @@
   "description": "simple functional programming tests",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+     "start": "node run.js"
   },
   "author": "liminal18",
   "license": "ISC",
